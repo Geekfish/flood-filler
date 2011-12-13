@@ -1,3 +1,5 @@
+<?php
+
 /*
  * @title:  Flood Fill Class
  * See below class for example input.
@@ -74,3 +76,5 @@ $floodFiller = New FloodFiller();
  
 // Print the final list of filled coordinates
 print_r( $floodFiller->Scan( $map, $point ) );
+
+?>
